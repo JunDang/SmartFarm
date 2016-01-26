@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073D70CC1B94C9DD0076B351 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073D70CB1B94C9DD0076B351 /* CoreLocation.framework */; };
+		0751D78F1B979125009CB60E /* MapDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0751D78E1B979125009CB60E /* MapDrawingViewController.swift */; };
+		075343E11B9333F600249C29 /* changPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075343E01B9333F600249C29 /* changPasswordViewController.swift */; };
 		078BDD1A1B8D05FE00FC7FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BDD191B8D05FE00FC7FB0 /* AppDelegate.swift */; };
 		078BDD1C1B8D05FE00FC7FB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BDD1B1B8D05FE00FC7FB0 /* ViewController.swift */; };
-		078BDD1F1B8D05FE00FC7FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078BDD1D1B8D05FE00FC7FB0 /* Main.storyboard */; };
 		078BDD211B8D05FE00FC7FB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078BDD201B8D05FE00FC7FB0 /* Images.xcassets */; };
 		078BDD241B8D05FE00FC7FB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078BDD221B8D05FE00FC7FB0 /* LaunchScreen.xib */; };
 		078BDD301B8D05FE00FC7FB0 /* SmartFarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BDD2F1B8D05FE00FC7FB0 /* SmartFarmTests.swift */; };
+		078BDD3A1B8D0FF000FC7FB0 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BDD391B8D0FF000FC7FB0 /* registerViewController.swift */; };
+		079AAA761B923AD7009E2CE4 /* userSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079AAA751B923AD7009E2CE4 /* userSettingViewController.swift */; };
+		079AAA791B925318009E2CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079AAA771B925318009E2CE4 /* Main.storyboard */; };
+		07A897C01B8F902E0034BF1B /* FarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A897BF1B8F902E0034BF1B /* FarmListTableViewController.swift */; };
+		07A897C21B8FB17D0034BF1B /* AddFarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A897C11B8FB17D0034BF1B /* AddFarmViewController.swift */; };
+		07D295E21B933ABC008CF902 /* PasswordRecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D295E11B933ABC008CF902 /* PasswordRecoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073D70CB1B94C9DD0076B351 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0751D78E1B979125009CB60E /* MapDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDrawingViewController.swift; sourceTree = "<group>"; };
+		075343E01B9333F600249C29 /* changPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changPasswordViewController.swift; sourceTree = "<group>"; };
 		078BDD141B8D05FE00FC7FB0 /* SmartFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078BDD181B8D05FE00FC7FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		078BDD191B8D05FE00FC7FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		078BDD1B1B8D05FE00FC7FB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		078BDD1E1B8D05FE00FC7FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		078BDD201B8D05FE00FC7FB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		078BDD231B8D05FE00FC7FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		078BDD291B8D05FE00FC7FB0 /* SmartFarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078BDD2E1B8D05FE00FC7FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		078BDD2F1B8D05FE00FC7FB0 /* SmartFarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFarmTests.swift; sourceTree = "<group>"; };
+		078BDD391B8D0FF000FC7FB0 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		079AAA751B923AD7009E2CE4 /* userSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userSettingViewController.swift; sourceTree = "<group>"; };
+		079AAA781B925318009E2CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07A897BF1B8F902E0034BF1B /* FarmListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FarmListTableViewController.swift; sourceTree = "<group>"; };
+		07A897C11B8FB17D0034BF1B /* AddFarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFarmViewController.swift; sourceTree = "<group>"; };
+		07D295E11B933ABC008CF902 /* PasswordRecoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRecoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073D70CC1B94C9DD0076B351 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 		078BDD0B1B8D05FE00FC7FB0 = {
 			isa = PBXGroup;
 			children = (
+				073D70CB1B94C9DD0076B351 /* CoreLocation.framework */,
 				078BDD161B8D05FE00FC7FB0 /* SmartFarm */,
 				078BDD2C1B8D05FE00FC7FB0 /* SmartFarmTests */,
 				078BDD151B8D05FE00FC7FB0 /* Products */,
@@ -79,10 +97,17 @@
 			children = (
 				078BDD191B8D05FE00FC7FB0 /* AppDelegate.swift */,
 				078BDD1B1B8D05FE00FC7FB0 /* ViewController.swift */,
-				078BDD1D1B8D05FE00FC7FB0 /* Main.storyboard */,
 				078BDD201B8D05FE00FC7FB0 /* Images.xcassets */,
 				078BDD221B8D05FE00FC7FB0 /* LaunchScreen.xib */,
+				079AAA771B925318009E2CE4 /* Main.storyboard */,
 				078BDD171B8D05FE00FC7FB0 /* Supporting Files */,
+				078BDD391B8D0FF000FC7FB0 /* registerViewController.swift */,
+				07A897BF1B8F902E0034BF1B /* FarmListTableViewController.swift */,
+				07A897C11B8FB17D0034BF1B /* AddFarmViewController.swift */,
+				079AAA751B923AD7009E2CE4 /* userSettingViewController.swift */,
+				075343E01B9333F600249C29 /* changPasswordViewController.swift */,
+				07D295E11B933ABC008CF902 /* PasswordRecoverViewController.swift */,
+				0751D78E1B979125009CB60E /* MapDrawingViewController.swift */,
 			);
 			path = SmartFarm;
 			sourceTree = "<group>";
@@ -156,6 +181,8 @@
 		078BDD0C1B8D05FE00FC7FB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jun Dang";
 				TargetAttributes = {
@@ -192,7 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078BDD1F1B8D05FE00FC7FB0 /* Main.storyboard in Resources */,
+				079AAA791B925318009E2CE4 /* Main.storyboard in Resources */,
 				078BDD241B8D05FE00FC7FB0 /* LaunchScreen.xib in Resources */,
 				078BDD211B8D05FE00FC7FB0 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +239,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079AAA761B923AD7009E2CE4 /* userSettingViewController.swift in Sources */,
+				07A897C21B8FB17D0034BF1B /* AddFarmViewController.swift in Sources */,
+				078BDD3A1B8D0FF000FC7FB0 /* registerViewController.swift in Sources */,
 				078BDD1C1B8D05FE00FC7FB0 /* ViewController.swift in Sources */,
 				078BDD1A1B8D05FE00FC7FB0 /* AppDelegate.swift in Sources */,
+				07A897C01B8F902E0034BF1B /* FarmListTableViewController.swift in Sources */,
+				07D295E21B933ABC008CF902 /* PasswordRecoverViewController.swift in Sources */,
+				0751D78F1B979125009CB60E /* MapDrawingViewController.swift in Sources */,
+				075343E11B9333F600249C29 /* changPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,20 +270,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		078BDD1D1B8D05FE00FC7FB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				078BDD1E1B8D05FE00FC7FB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		078BDD221B8D05FE00FC7FB0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				078BDD231B8D05FE00FC7FB0 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		079AAA771B925318009E2CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079AAA781B925318009E2CE4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmartFarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SmartFarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +447,7 @@
 				078BDD351B8D05FE00FC7FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		078BDD361B8D05FE00FC7FB0 /* Build configuration list for PBXNativeTarget "SmartFarmTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +456,7 @@
 				078BDD381B8D05FE00FC7FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
